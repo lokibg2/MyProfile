@@ -1,0 +1,52 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+body {
+    background-color: antiquewhite;
+}
+
+.icon-block {
+    padding: 0 15px;
+}
+
+.icon-block .material-icons {
+    font-size: inherit;
+}
+
+/*
+font-family: 'Bree Serif', serif;
+font-family: 'Acme', sans-serif;
+font-family: 'Righteous', cursive;
+*/
+
+.brand-logo {
+    font-family: 'Righteous', cursive;
+
+}
+
+.header {
+    font-family: 'Hammersmith One', sans-serif;
+}
+
+.carousel-item h2 {
+    padding-top: 5%;
+    font-family: 'Righteous', cursive;
+    font-size: 5em !important;
+}
+
+.s6 p {
+    text-decoration: dotted !important;
+    font-size: 1.8em !important;
+    font-family: 'Acme', sans-serif;
+
+    text-align: left !important;
+}
+
+img {
+    margin-top: 2%;
+}
