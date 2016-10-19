@@ -3,6 +3,7 @@
 
         $('.button-collapse').sideNav();
         $(document).ready(function () {
+			$('*').hide();
             $('.carousel.carousel-slider').carousel({full_width: true});
             $(document).keydown(function (e) {
                 if (e.keyCode == 37) {
@@ -11,7 +12,10 @@
                 } else if (e.keyCode == 39) {
                     $('.carousel').carousel('next');
 
-                }
+                }else if (e.keyCode == 40){
+					e.preventDefault();
+					$('*').show(500);
+				}
             });
 
         });
