@@ -3,7 +3,7 @@
 
         $('.button-collapse').sideNav();
         $(document).ready(function () {
-			$('*').hide();
+			$('body *').hide();
             $('.carousel.carousel-slider').carousel({full_width: true});
             $(document).keydown(function (e) {
                 if (e.keyCode == 37) {
